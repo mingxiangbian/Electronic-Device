@@ -1,6 +1,6 @@
 # Electronic-Device
 Electronic Device Lecture notes
-建议用obisidian打开, 否则图片与文字会有点混乱
+建议用obisidian打开, 否则图片无法展示
 
 ## index
 - [ED Block 1](ED_Block%201(Lecture123).pdf)
