@@ -4,7 +4,7 @@
 Wafer Manufacturing $\to$ Oxidation $\to$ Photolithgraphy $\to$ Etching $\to$ Deposition and Ion Implantation $\to$ Metal Wiring $\to$ Electrical Die Sorting $\to$ Packaging
 
 **Wafer Manufacturing**: The main material used for making semiconductors integrated circuits 
-![[1.png|200]]
+![](images/1.png|200)
 
 **Oxidation**: The process of making the foundation of the transistor by forming a silicon oxide film on the wafer surface. Protects and blocks leakage current between circuits
 ![[2.png|200]]
