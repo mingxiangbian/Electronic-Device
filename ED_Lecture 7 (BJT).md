@@ -1,23 +1,23 @@
 # The Bipolar Transistor
 ## Types of Transistor
-![[27.png|400]]
+<img src="images/27.png" alt="27" style="width:400px"/>
 ## Bipolar Junction Transistor
 BJTs can be thought of as two diodes (p-n junctions) sharing a common region.
 Thus, there are two possible configurations with three terminals (emitter, base, collector)
-1. **npn BJT**: In a **_npn_** transistor, the BJT consists of three semiconductor regions: the emitter region (_n_ type), the base region (_p_ type), and the collector region (_n_ type)![[28.png|300]]
-2. **pnp BJT**: _A_ **_pnp_** transistor has a _p_-type emitter, an _n_-type base, and a _p_-type collector![[29.png|300]]
+1. **npn BJT**: In a **_npn_** transistor, the BJT consists of three semiconductor regions: the emitter region (_n_ type), the base region (_p_ type), and the collector region (_n_ type)<img src="images/28.png" alt="28" style="width:300px"/>
+2. **pnp BJT**: _A_ **_pnp_** transistor has a _p_-type emitter, an _n_-type base, and a _p_-type collector<img src="images/29.png" alt="29" style="width:300px"/>
 ### BJT Modes of Operation
-![[30.png|400]]
-![[31.png|400]]
+<img src="images/30.png" alt="30" style="width:400px"/>
+<img src="images/31.png" alt="31" style="width:400px"/>
 ### Active Mode npn-BJT
-![[32.png|400]]
+<img src="images/32.png" alt="32" style="width:400px"/>
 ### Common-Emitter Configuration
-![[33.png|400]]
+<img src="images/33.png" alt="33" style="width:400px"/>
 ### BJT Characteristic Curve - $I_C\ vs\ V_{CE}$
-![[34.png|400]]
+<img src="images/34.png" alt="34" style="width:400px"/>
 ### Current
 #### Collector Current
-![[35.png|300]]
+<img src="images/35.png" alt="35" style="width:300px"/>
 $$I_C=I_S(e^{qV_{BE}/kT}-1)=A_Eq\frac{D_B}{W_B}\frac{n_{iB}^2}{N_B}(e^{qV_{BE}/kT}-1)$$
 > $D_B$: base minority carrier (electron) diffusion constant
 > $N_B$: Base doping concentration
@@ -25,7 +25,7 @@ $$I_C=I_S(e^{qV_{BE}/kT}-1)=A_Eq\frac{D_B}{W_B}\frac{n_{iB}^2}{N_B}(e^{qV_{BE}/k
 > $W_B$: Base Width
 > $n_{iB}$: intrinsic carrier concentration of Base
 #### Base Current
-![[36.png|300]]
+<img src="images/36.png" alt="36" style="width:300px"/>
 For a uniform emitter:
 $$I_B=A_Eq\frac{D_E}{W_E}\frac{n_{iE}^2}{N_E}(e^{qV_{BE}/kT}-1)$$
 #### Current Gain
@@ -38,9 +38,9 @@ In BJT, we have different currents and voltages, to be considered in power calcu
 Therefore, the total power in the transistor is: $$P=V_{BE}I_B+V_{CE}+I_C$$
 The collector current will be much larger than the base current, and thus the power in the transistor can be simplified to: $$P\approx V_{CE}I_C$$
 ### Base-Width Modulation (Early effect)
-![[37.png|200]]
+<img src="images/37.png" alt="37" style="width:200px"/>
 Output Resistance:$$r_0=(\frac{dI_C}{dV_{CE}})^{-1}=\frac{V_A}{I_C}$$
-![[38.png|200]]
+<img src="images/38.png" alt="38" style="width:200px"/>
 The base-width modulation effect is reduced if we:
 1. Increase the base width
 2. Increase the base doping concentration $N_B$
