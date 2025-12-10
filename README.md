@@ -8,7 +8,7 @@ Electronic Device Lecture notes
 - [ED Lecture 7](ED_Lecture%207%20(BJT).md) 
 - [ED Lecture 8](ED_Lecture%208%20(JFET).md) 
 - [ED Lecture 9](ED_Lecture%209%20(MOSFET).md) 
-- [ED Lecture 10](ML%20Lecture%206.md) ⚠️ 未完成
+- [ED Lecture 10](ED_Lecture%2010%20(OD).md) 
 - [ED Lecture 11](ML%20Lecture%206.md) ⚠️ 未完成
 - [ED Lecture 12](ML%20Lecture%206.md) ⚠️ 未完成
 
