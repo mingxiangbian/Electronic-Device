@@ -10,6 +10,6 @@ Electronic Device Lecture notes
 - [ED Lecture 9](ED_Lecture%209%20(MOSFET).md) 
 - [ED Lecture 10](ED_Lecture%2010%20(OD).md) 
 - [ED Lecture 11](ED_Lecture%2011%20(LED).md)
-- [ED Lecture 12](ML%20Lecture%206.md) ⚠️ 未完成
+- [ED Lecture 12](ED_Lecture%2012%20(SC).md)
 
 ## To Be Continued
