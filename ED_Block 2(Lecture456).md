@@ -4,7 +4,7 @@
 Wafer Manufacturing $\to$ Oxidation $\to$ Photolithgraphy $\to$ Etching $\to$ Deposition and Ion Implantation $\to$ Metal Wiring $\to$ Electrical Die Sorting $\to$ Packaging
 
 **Wafer Manufacturing**: The main material used for making semiconductors integrated circuits 
-![[images/1.png]]
+![[images/1.png|200]]
 
 **Oxidation**: The process of making the foundation of the transistor by forming a silicon oxide film on the wafer surface. Protects and blocks leakage current between circuits
 ![[2.png|200]]
@@ -49,7 +49,7 @@ Wafer Manufacturing $\to$ Oxidation $\to$ Photolithgraphy $\to$ Etching $\to$ De
 $$V_{bi}=\frac{kT}{q}\ln{(\frac{N_DN_A}{n_i^2})}$$
 	k: Boltzmann constant ($1.38\times10^{-23}J/K$), 
 	T: is the absolute temperature in Kelvin (300K)
-		$\frac{kT}{q}=259mV$, at $T=300K$
+		$\frac{kT}{q}=25.9mV$, at $T=300K$
 	q: charge of an electron ($1.6\times10^{-19}C$), 
 	$N_A(acceptor)$ and $N_D(donar)$ typical values $10^{16}$ to $10^{19} cm^{-3}$ 
 	$n_i$: The intrinsic carrier concentration 
@@ -64,12 +64,12 @@ Typical built-in voltages:
 #### Depletion Width
 	The depletion region's width affects the diode's behaviour, including its capacitance and the 
 	characteristics of the electric field.
-At steady state, For a silicon: $\epsilon_r=11.7$, $\epsilon_0=8.854\times10^{-14}F/m$
+At steady state, For a silicon: $\epsilon_r=11.7$, $\epsilon_0=8.854\times10^{-14}F/cm$
 $$W=\sqrt{\frac{2\epsilon_0\epsilon_rV_{bi}}{q}(\frac{1}{N_A}+\frac{1}{N_D})}$$
 The total charge on the n-side must be equal to that on the p-side side for overall charge neutrality, so
 $$N_AW_p=N_DW_n$$
 
-### Forward-bias ans reverse-bias
+### Forward-bias and reverse-bias
 • Biasing a p-n junction means applying an external voltage to control electrical behaviour.
 • Biasing changes the depletion region width.
 • A diode is a device that allows current to flow in one direction while blocking it in the opposite direction.
@@ -196,3 +196,4 @@ Useful tools:
 4. 反向偏置: 当V为负且$|V|>>V_T$时, exp(qV/kT) $\to$ 0, 电流基本等于反向饱和电流
 5. Due to $$qV_{bi}={kT}\ln{\frac{N_DN_A}{n_i^2}}=E_{ip}-E_{F}+(E_F-E_{in})$$![[26.png|200]]
  6. Therefore, $$E_{ip}-E_F=kT\ln\frac{N_a}{n_i}, E_F-E_{in}=kT\ln\frac{N_d}{n_i}$$
+ 7. $I_s$ depend on the diffusion current.$$I_S=Aqn_i^2(\frac{D_p}{L_pN_d}+\frac{D_n}{L_nN_a}),\ L_p=\sqrt{D_p\tau_n}\ L_n=\sqrt{D_n\tau_p}$$

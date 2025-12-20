@@ -76,3 +76,5 @@ Small-signal voltage gain $$A_V=\frac{v_{ds}}{v_{gs}}=\frac{-R_Di_d}{v_{gs}}\to 
 ### BJTs and FETs Differences
 ![[49.png]]
 
+
+

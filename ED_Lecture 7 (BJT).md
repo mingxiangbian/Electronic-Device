@@ -9,6 +9,10 @@ Thus, there are two possible configurations with three terminals (emitter, base,
 ### BJT Modes of Operation
 ![[30.png|400]]
 ![[31.png|400]]
+> 这是正常的放大模式：硅晶体管的典型𝑉𝐵𝐸≈0.7V，且𝑉𝐶𝐵>0。
+> 特性：小的基极电流控制大的集电极电流（例如𝐼𝐶≈𝛽𝐼𝐵）。
+> 应用：模拟电路、放大器线性工作。
+> 饱和模式下, 假设$V_{CE}=0,\ V_{BE}=0.7V$
 ### Active Mode npn-BJT
 ![[32.png|400]]
 ### Common-Emitter Configuration
